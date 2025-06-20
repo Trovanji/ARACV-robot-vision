@@ -1,0 +1,8 @@
+<launch>
+  <!-- Launch the robot's camera simulation -->
+  <!-- If needed, you can separately start Gazebo manually -->
+
+  <!-- Launch the cube follower node -->
+  <node name="cube_follower" pkg="vision_bot" type="move_to_cube.py" output="screen" />
+
+</launch>
